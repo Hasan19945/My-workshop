@@ -1,0 +1,33 @@
+.box{
+   background-color: rgb(0, 255, 242);
+   width:200px;
+   height: 100px;
+   border-radius: 20%;
+   padding: 1rem;
+   margin: 3rem;
+
+   
+}
+.b1{
+    background-color: brown;
+    overflow: visible;
+}
+.b2{
+    background-color: aqua;
+    overflow-x: scroll;
+    
+}
+.b3{
+   overflow: scroll;
+}
+.b4{overflow: hidden;}
+
+.b5{
+    overflow: auto;
+}
+.par1{
+    background-color: brown;
+}
+.par2{
+    background-color: blue;
+}
