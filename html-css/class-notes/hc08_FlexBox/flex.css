@@ -8,8 +8,21 @@ body {
   padding: 1rem;
   height: 100vh;
 }
+ul.Cars{
+  background-color: brown;
+  list-style-type: none;
+  padding: 2rem;
+  display: flex;
+ 
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /*flex-flow: column-reverse;*/ satir halinde terstenyazdirir
+}
 
-ul {
+ul.Flex {
   background-color: rebeccapurple;
   list-style-type: none;
   padding: 1rem 0;
@@ -28,8 +41,8 @@ ul * {
 
 ul li {
   padding: 1rem;
-  border-radius: 10px;
-  width: 200px;
+  border-radius: 20px;
+  width: 230px;
 }
 
 /* ol{
