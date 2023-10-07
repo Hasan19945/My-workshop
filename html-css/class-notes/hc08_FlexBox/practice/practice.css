@@ -34,7 +34,7 @@ nav .left img{
 
 nav .left{
     flex: 1;
-    background-color: #bcccdc;
+    background-color: #7942c6;
     box-shadow: 2px 2px 5px black;
     border-radius: 10px;
     /* height: 250px; */
@@ -45,7 +45,7 @@ nav .left{
 
 nav .middle{
 flex: 1;
-background-color: #bcccdc;
+background-color: #1285a2;
 box-shadow: 2px 2px 5px black;
 border-radius: 10px;
 display: flex;
