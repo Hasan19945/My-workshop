@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(7,4 f);
+    margin: 0;
+    box-sizing: border-box;
+    border: 1 solid red;
+    border-radius: 60%;
+
+}
+.content1 {
+    background-color: blue;
+}
