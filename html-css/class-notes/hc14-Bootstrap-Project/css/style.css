@@ -1,7 +1,59 @@
-/*! -------------- 1- NAVBAR --------------------- */
+:root {
+    --red:#E51959;
 
+}
+
+
+
+/*! -------------- 1- NAVBAR --------------------- */
+.navbar-nav {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--red);
+    }
 /*! -------------- 2- CAROUSEL ------------------- */
 
+.carousel-item {
+
+    max-height: 100vh;
+}
+
+.carousel-caption .btn {
+    width: 7rem;    
+}
+
+.carousel-caption h5 {
+    color:var(--red) ;
+    font-size:2.4rem;
+    text-shadow: 3px 3px 3px 3px black;
+}
+.carousel-caption p {
+    text-shadow: 3px 3px 3px black;
+    font-weight: 600;
+}
+
+.carousel-caption{
+    border: 2px solid red;
+    /*margin-bottom: 10rem;*/
+    /*bottom: 10rem;*/
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.carousel-indicators{
+    gap: 0.5rem;
+}
+.carousel-indicators button{
+    background-color: var(--red) !important;
+    padding: 1rem !important;
+    width: 3rem !important;
+   
+}
 /*! -------------- 3- ABOUT SECTION -------------- */
 
 /*! -------------- 4- INSTRUCTORS ---------------- */
